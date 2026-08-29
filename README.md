@@ -5,6 +5,30 @@
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=vogler_free-games-claimer&metric=code_smells)](https://sonarcloud.io/project/overview?id=vogler_free-games-claimer)
 # free-games-claimer
 
+<p align="center">
+  <img alt="Runtime" src="https://img.shields.io/badge/Runtime-Node.js-339933?style=flat-square&logo=nodedotjs" />
+  <img alt="Browser" src="https://img.shields.io/badge/Browser-Playwright-2EAD33?style=flat-square&logo=playwright" />
+  <img alt="Deploy" src="https://img.shields.io/badge/Deploy-Docker_or_local-2496ED?style=flat-square&logo=docker" />
+  <img alt="Stores" src="https://img.shields.io/badge/Stores-Epic_·_Prime_·_GOG-7C3AED?style=flat-square" />
+</p>
+
+<p align="center"><a href="#how-to-run">How to run</a> · <a href="#usage">Usage</a> · <a href="#run-periodically">Scheduling</a> · <a href="#problems">Problems</a></p>
+
+## Repository guide
+
+| Area | Fast answer |
+| --- | --- |
+| Purpose | Periodically claim currently free games and offers from supported stores |
+| Easiest run | Use the documented Docker command and open noVNC only when interaction is required |
+| Local run | Install Node.js, run `npm install`, then choose a store entry such as `node epic-games` |
+| Persistent state | Browser profiles, claim records, codes, and screenshots live under the data volume/directory |
+| Upstream references | Existing badges, images, container names, issues, and documentation links point to `vogler/free-games-claimer` |
+
+> This repository carries upstream-oriented documentation. Confirm whether you want this copy or the upstream release/container before deploying.
+
+---
+
+
 Claims free games periodically on
 - <img src="https://github.com/user-attachments/assets/82e9e9bf-b6ac-4f20-91db-36d2c8429cb6" width="32" align="middle" /> [Epic Games Store](https://www.epicgames.com/store/free-games)
 - <img src="https://github.com/user-attachments/assets/7627a108-20c6-4525-a1d8-5d221ee89d6e" width="32" align="middle" /> [Amazon Prime Gaming](https://gaming.amazon.com)
